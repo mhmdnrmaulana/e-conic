@@ -1,0 +1,25 @@
+{
+  "TopBar": {
+    "texts": [
+      {
+        "text": "Promo Musim Panas! Diskon 50% untuk Semua Baju Renang & Gratis Pengiriman Ekspres!",
+        "to": "Belanja Sekarang"
+      },
+      {
+        "text": "Penawaran Terbatas! Dapatkan Diskon Hingga 70% untuk Produk Pilihan + Gratis Ongkir!",
+        "to": "Belanja Sekarang"
+      }
+    ]
+  },
+  "Navbar": {
+    "title": "Eksklusif",
+    "placeholder": "Cari produk..."
+  },
+  "HomePage": {
+    "title": "Hallo Dunia",
+    "about": "Pergi ke about Page"
+  },
+  "NotFoundPage": {
+    "title": "Somethink when error"
+  }
+}

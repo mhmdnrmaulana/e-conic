@@ -1,0 +1,25 @@
+{
+  "TopBar": {
+    "texts": [
+      {
+        "text": "Summer Sale all For All Swim Suits And Free Express Delivery - OFF 50%!",
+        "to": "ShopNow"
+      },
+      {
+        "text": "Limited Time Offer! Get Up to 70% OFF on Selected Items + Free Shipping!",
+        "to": "Shop Now"
+      }
+    ]
+  },
+  "Navbar": {
+    "title": "Exclusive",
+    "placeholder": "Search products..."
+  },
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "NotFoundPage": {
+    "title": "Somethink when error"
+  }
+}
