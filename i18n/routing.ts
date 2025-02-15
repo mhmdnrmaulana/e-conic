@@ -13,11 +13,11 @@ export const routing = defineRouting({
       en: "/contact",
       id: "/kontak",
     },
-    "/signin": {
+    "/sign-in": {
       en: "/signin",
       id: "/login-akun",
     },
-    "/signup": {
+    "/sign-up": {
       en: "/signup",
       id: "/daftar-akun",
     },

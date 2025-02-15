@@ -1,13 +1,32 @@
-import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
-import { getTranslations } from "next-intl/server";
+import { auth } from "@/common/libs/auth";
+import LayoutsPage from "@/components/layouts";
+import Layout from "@/components/layouts";
+import Navbar from "@/components/layouts/navbar";
+import Topbar from "@/components/layouts/topbar";
+import { routing } from "@/i18n/routing";
+import { div } from "framer-motion/client";
+import { redirect } from "next/navigation";
 
-export default function HomePage() {
-  const t = useTranslations("HomePage");
+type Props = {
+  params: { locale: string };
+};
+
+export default async function HomePage({
+  params,
+}: {
+  params: { locale: string };
+}) {
+  // const { locale } = await params;
+  // console.log(locale);
+  // const session = await auth();
+  // if (!session) {
+  //   redirect(`/${locale}/sign-in`);
+  // }
   return (
-    <div className="mt-28">
-      <h1>{t("title")}</h1>
-      <Link href={{ pathname: "/about" }}>{t("about")}</Link>
-    </div>
+    <>
+      <LayoutsPage>
+        <h1>Home Page</h1>
+      </LayoutsPage>
+    </>
   );
 }

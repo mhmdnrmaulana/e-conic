@@ -35,7 +35,7 @@ export default function FrameTopbar({ children }: Props) {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 30 }}
           transition={{ duration: 0.7 }}
-          className="w-2/3"
+          className="w-2/3 text-center"
         >
           {texts[index].text}
           <button>

@@ -1,5 +1,3 @@
-import { label } from "framer-motion/client";
-
 type NavLinks = {
   label: string;
   path: "/" | "/about" | "/contact";
